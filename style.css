@@ -1,0 +1,41 @@
+.baslik{
+    text-align: center;
+    background-color: rgb(91, 116, 137);
+}
+body{margin-top:0;}
+table {
+    width: 33%; /* Tabloyu iki katına çıkartma */
+    height: 600px;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Tablo altındaki boşluğu artırma */
+    border-spacing: 80px; /* Sütunlar arasındaki mesafeyi artırma */
+    margin-right: 80px;
+  }
+  
+  td {
+    border: 2px solid #ddd; /* Hücre kenarlarını kalınlaştırma */
+    padding: 16px; /* Hücre içeriğinin içeride daha geniş olmasını sağlama */
+    text-align: left;
+  }
+  
+  th {
+    border: 2px solid #ddd; /* Başlık hücrelerinin kenarlarını kalınlaştırma */
+    padding: 16px; /* Başlık hücrelerinin içeriğinin içeride daha geniş olmasını sağlama */
+    text-align: center;
+  }
+  .tablolar {
+    display: flex; /* flexbox kullanarak içerikleri yatay düzende sıralama */
+    gap: 20px; /* tablolar arasındaki boşluğu artırma */
+  }
+  span{
+margin-left: 2%;
+  }
+input{
+    width: 7%;
+}
+#in{
+    width: auto;
+}
+.out{
+    margin-top: 15px;
+}
